@@ -1,0 +1,9 @@
+[package]
+name = "chat-tokio-stream"
+version = "0.1.0"
+authors = ["Dennis Huisman, Nate Mara"]
+description = "A chat server using Tokio and the tokio-stream library"
+edition = "2018"
+
+[dependencies]
+tokio = { version = "^1", features = ["full"]}
